@@ -1,0 +1,88 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  首页: /
+  文章: /archives
+  标签: /tags
+  分类: /categories
+  关于: /about
+# 源码: https://github.com/stiekel/hexo-theme-random
+
+social:
+  GitHub: https://github.com/luciamoore.github.io
+# Coding.NET: https://coding.net/u/Stiekel
+# Twitter: https://twitter.com/SidCN
+  Weibo: http://weibo.com/piaoxiangyuan
+# DouBan: http://www.douban.com/people/Stiekel/
+  Youtube: https://www.youtube.com/user/PussLoco
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/random.css
+- /css/vegas.min.css
+- /css/highlight-railscasts.css
+- /css/jquery.fancybox.css
+- /css/iconfont/iconfont.css
+- /css/jquery.fancybox-thumbs.css
+- /css/plyr.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-2.2.3.min.js
+- /js/vegas.min.js
+- /js/random.js
+- /js/highlight.pack.js
+- /js/jquery.mousewheel.pack.js
+- /js/jquery.fancybox.pack.js
+- /js/jquery.fancybox-thumbs.js
+- /js/plyr.js
+
+backgroundImages:
+- /css/1.jpg?imageView2/1/w/__width__/h/__height__
+- /css/2.jpg?imageView2/1/w/__width__/h/__height__
+- /css/3.jpg?imageView2/1/w/__width__/h/__height__
+- /css/4.jpg?imageView2/1/w/__width__/h/__height__
+- /css/5.jpg?imageView2/1/w/__width__/h/__height__
+
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_2.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_3.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_4.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_5.jpg?imageView2/1/w/__width__/h/__height__
+
+vegasConfig:
+  # more about config http://vegas.jaysalvat.com/documentation/settings/
+  # animation: 'random'
+  # transition: 'swirlRight'
+  preload­Image: true
+  transition:
+    - slideLeft2
+    - slideRight2
+    # - zoomIn
+    # - swirLeft
+    # - swirRight
+    # - flash
+    - flash2
+  timer: true
+  delay: 3000
+  shuffle: true
+  count: 5
+
+unsplashConfig:
+  # more about config on https://unsplash.it/
+  # blur: true
+  gravity: 'north' # north, east, south, west, center
+  # greyscale: true
+
+avatar: /css/logo.jpg
+
+# do not like fancybox, set this as false, this will turn it off
+fancybox: true
+
+# set the visibility of hide button in left bottom.
+hideButtonVisibility: true
